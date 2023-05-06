@@ -11,7 +11,7 @@ db.produtos.updateOne(
   { nome: "Big Mac" },
   {
     $inc: {
-      "vendasPorDia.3": 60
+      "vendasPorDia.3": 60,
     },
   },
 );
@@ -20,7 +20,7 @@ db.produtos.updateMany(
   { tags: "bovino" },
   {
     $inc: {
-      "vendasPorDia.6": 120
+      "vendasPorDia.6": 120,
     },
   },
 );
