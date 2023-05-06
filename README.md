@@ -1,13 +1,30 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto Commerce - MongoDB 
+Colocando em prática os aprendizados de MongoDB, com base em informações do cardápio do McDonald's.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Contexto
+Esse projeto consiste em uma lista de desafios avaliativos para consolidar os conceitos relacionados ao banco de dados NoSQL, MongoDB.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Nesse projeto, trabalhei a partir do banco de dados commerce, que contém informações do cardápio do McDonald's, como ingredientes, valores nutricionais e dados fictícios de vendas.
+Minha responsabilidade foi escrever as queries necessárias para pesquisar e atualizar os dados para atender ao que era solicitado em cada requisito.
+
+## Habilidades
+- Pesquisar documentos no banco de dados usando o find();
+- Especificar os dados retornados do documento com projection.
+- Filtrar resultado das pesquisas, usando operadores lógicos e de comparação:
+$and, $or, $not, $nor, $exists.
+$lt, $lte, $gt, $gte, $eq, $ne, $in, $nin.
+- Limitar, pular, ordenar os documentos retornados, com os métodos:
+limit(), skip(), sort();
+- Utilizar operadores de consulta em array:
+ $all, $elementMatch, $size, $expr, $regex, $mod.
+- Fazer atualizações nos documentos utilizando os operadores:
+$set, $mul, $inc, $min, $max e $currentDate.
+- Renomear campos com $rename e remover com $unset.
+- Incorporar dados aos documentos através de arrays utilizando os operadores:
+$pop, $pull, $push, $addToSet, $each, $slice e $sort.
+
+## Tecnologias utilizadas
+Docker
+
+## Banco de dados
+MongoDB
